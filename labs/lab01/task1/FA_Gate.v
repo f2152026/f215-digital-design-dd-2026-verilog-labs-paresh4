@@ -16,6 +16,7 @@ module FA_Gate(
 );
   wire ps, pc1, pc2;
 
+
 or  (cout, pc1, pc2);
 xor (sum, cin, ps);
 and (pc2, cin, ps);
