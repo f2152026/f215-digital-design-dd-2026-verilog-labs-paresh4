@@ -25,6 +25,7 @@ module tb;
     t_b = 4'd3;
     t_op = 1'b0;
     #1;
+    
 
     if (t_result !== 4'd8) begin
       $display("FAIL: ADD 5 + 3 | got %d, expected 8", t_result);
